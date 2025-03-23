@@ -19,21 +19,21 @@ Dengan menggabungkan ketiga struktur data ini, kita dapat memodelkan sistem antr
 Struktur Data dan Tugasnya:
 
 ### 1. Single Linked List
-- **File**: `List.h`, `List.c`
+- File: `List.h`, `List.c`
 - **Tugas**: 
   - Menyimpan semua riwayat layanan yang pernah diberikan kepada pelanggan.
   - Memungkinkan penambahan data baru di akhir list (`insertLast`) dan penghapusan data lama dari awal list (`deleteFirst`).
   - Digunakan untuk menampilkan semua riwayat layanan yang pernah dilakukan.
 
 ### 2. Queue
-- **File**: `queue.h`, `queue.c`
+- File: `queue.h`, `queue.c`
 - **Tugas**:
   - Mengelola antrian pelanggan yang menunggu untuk dilayani.
   - Mengimplementasikan operasi `EnQueue` untuk menambahkan pelanggan ke antrian dan `DeQueue` untuk melayani pelanggan yang berada di depan antrian.
   - Digunakan untuk menampilkan antrian pelanggan yang sedang menunggu.
 
 ### 3. Stack
-- **File**: `stack.h`, `stack.c`
+- File: `stack.h`, `stack.c`
 - **Tugas**:
   - Menyimpan riwayat layanan terakhir yang diberikan kepada pelanggan.
   - Mengimplementasikan operasi `push` untuk menambahkan layanan terakhir dan `pop` untuk mengambil layanan terakhir.
